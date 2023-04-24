@@ -5,7 +5,7 @@
 .portfolio__title {
   font-size: 18px;
   line-height: 20px;
-  color: #8b8b8b;
+  color: var(--faded);
 }
 
 .portfolio__links {
@@ -14,7 +14,7 @@
 
 .portfolio__link-item {
   padding: 20px 0 19px;
-  border-bottom: 1px solid #424242;
+  border-bottom: 1px solid var(--faded);
   background-image: url('../../../assets/ui/portfolio-link-arrow.svg');
   background-repeat: no-repeat;
   background-position: right center;
