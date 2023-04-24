@@ -1,0 +1,37 @@
+.about-me {
+  margin-top: 110px;
+}
+
+.about-me__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+}
+
+.about-me__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-me__name {
+}
+
+.about-me__profession {
+  margin-top: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.about-me__description {
+  font-size: 14px;
+  line-height: 22px;
+  max-width: 600px;
+  margin-top: 26px;
+}
+
+.about-me__img {
+  height: 327px;
+  object-fit: cover;
+}
