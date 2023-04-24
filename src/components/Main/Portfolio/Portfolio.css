@@ -1,0 +1,27 @@
+.portfolio {
+  margin-top: 100px;
+}
+
+.portfolio__title {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8b8b8b;
+}
+
+.portfolio__links {
+  margin-top: 50px;
+}
+
+.portfolio__link-item {
+  padding: 20px 0 19px;
+  border-bottom: 1px solid #424242;
+  background-image: url('../../../assets/ui/portfolio-link-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.portfolio__link {
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+}
