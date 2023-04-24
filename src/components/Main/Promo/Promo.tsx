@@ -1,5 +1,6 @@
 import logo from '../../../assets/logo.svg'
 import { Link } from 'react-router-dom'
+import './Promo.css'
 
 function Promo() {
   return (
@@ -12,7 +13,7 @@ function Promo() {
         </div>
       </header>
       <section className="hero">
-        <h1 className="hero__title">
+        <h1 className="hero__title main-page__title">
           Учебный проект студента факультета Веб-разработки.
         </h1>
         <p className="hero__subtitle">

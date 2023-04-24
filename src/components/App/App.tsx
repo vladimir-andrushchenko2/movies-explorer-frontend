@@ -9,17 +9,19 @@ import Register from '../Auth/Register/Register'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Main />}></Route>
-        <Route path="/movies" element={<Movies />}></Route>
-        <Route path="/saved-movies" element={<SavedMovies />}></Route>
-        <Route path="/profile" element={<Profile />}></Route>
-        <Route path="/signin" element={<Login />}></Route>
-        <Route path="/signup" element={<Register />}></Route>
-        <Route path="*" element={<h1>404</h1>}></Route>
-      </Routes>
-    </BrowserRouter>
+    <div className="root">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/movies" element={<Movies />}></Route>
+          <Route path="/saved-movies" element={<SavedMovies />}></Route>
+          <Route path="/profile" element={<Profile />}></Route>
+          <Route path="/signin" element={<Login />}></Route>
+          <Route path="/signup" element={<Register />}></Route>
+          <Route path="*" element={<h1>404</h1>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 
