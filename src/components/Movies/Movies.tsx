@@ -1,3 +1,10 @@
+import Header from '../Common/Header/Header'
+
 export default function Movies() {
-  return <h1>hi from movies</h1>
+  return (
+    <div className="movies-page container">
+      <Header />
+      <h1>hi from movies</h1>
+    </div>
+  )
 }

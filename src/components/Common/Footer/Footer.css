@@ -27,8 +27,3 @@
 .footer__links-item:not(:first-child) {
   margin-left: 20px;
 }
-
-.footer__link {
-  text-decoration: none;
-  color: white;
-}

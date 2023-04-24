@@ -34,6 +34,11 @@ ul {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (max-width: 1068px) {
   .container {
     max-width: 668px;

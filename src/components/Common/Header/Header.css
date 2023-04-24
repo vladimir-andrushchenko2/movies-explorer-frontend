@@ -1,0 +1,36 @@
+.header {
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav-links {
+  display: flex;
+}
+
+.header__nav-links-item:not(:first-child) {
+  margin-left: 16px;
+}
+
+.header__nav-link_active {
+  font-weight: 500;
+}
+
+.header__account-link {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.header__profile-icon {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-color: var(--off-white-lighter);
+  transform: translateY(30%);
+  margin-left: 7px;
+  border-radius: 50%;
+  background-image: url('../../../assets/ui/profile-link-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
