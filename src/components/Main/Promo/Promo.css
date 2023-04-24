@@ -1,3 +1,25 @@
-.hero {
+.promo {
   background-color: var(--promo-fill);
+  padding: 18px 0 75px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__title {
+  max-width: 640px;
+  margin-top: 93px;
+}
+
+.hero__subtitle {
+  margin-top: 36px;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.hero__learn-more-btn {
+  margin-top: 146px;
 }

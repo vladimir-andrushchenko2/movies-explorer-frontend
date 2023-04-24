@@ -6,10 +6,13 @@
 
 :root {
   --promo-fill: #073042;
+  --accent: #3ddc84;
+  --off-white: #272727;
+  --background: #202020;
 }
 
 .root {
-  background-color: #202020;
+  background-color: var(--background);
   color: white;
 }
 
@@ -17,4 +20,20 @@
 button,
 input {
   font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1068px) {
+  .container {
+    max-width: 668px;
+  }
 }

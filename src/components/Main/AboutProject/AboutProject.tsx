@@ -1,7 +1,10 @@
+import './AboutProject.css'
 function AboutProject() {
   return (
-    <section className="about-project">
-      <h2 className="about-project__title">О проекте</h2>
+    <section className="about-project container">
+      <h2 className="about-project__title main-page__section-title">
+        О проекте
+      </h2>
       <ul className="about_project__info-list">
         <li className="about_project__info-item">
           <h3 className="about-project__into-title">
@@ -24,12 +27,12 @@ function AboutProject() {
       </ul>
       <ul className="about-project__chart">
         <li className="about-project__stage-item">
-          <p className="about-project-stage-duration">1 неделя</p>
-          <p className="about-project-stage-description">Back-end</p>
+          <p className="about-project__stage-duration">1 неделя</p>
+          <p className="about-project__stage-description">Back-end</p>
         </li>
         <li className="about-project__stage-item">
-          <p className="about-project-stage-duration">4 недели</p>
-          <p className="about-project-stage-description">Front-end</p>
+          <p className="about-project__stage-duration">4 недели</p>
+          <p className="about-project__stage-description">Front-end</p>
         </li>
       </ul>
     </section>

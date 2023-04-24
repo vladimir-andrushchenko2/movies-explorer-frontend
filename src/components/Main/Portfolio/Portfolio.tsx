@@ -1,7 +1,7 @@
 function Portfolio() {
   return (
     <section className="portfolio">
-      <h2 className="portfolio">Портфолио</h2>
+      <h2 className="portfolio__title main-page__section-title">Портфолио</h2>
       <ul className="portfolio__links">
         <li className="portfololio__link">
           <a href="https://github.com/vladimir-andrushchenko2/how-to-learn">

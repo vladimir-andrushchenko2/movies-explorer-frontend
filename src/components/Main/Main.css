@@ -1,8 +1,11 @@
-.main-page {
-}
-
 .main-page__title {
-  font-weight: 400;
   font-size: 50px;
   line-height: 58px;
+}
+
+.main-page__section-title {
+  font-size: 22px;
+  line-height: 27px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #dadada;
 }
