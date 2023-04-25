@@ -1,0 +1,12 @@
+.toggle circle,
+.toggle rect {
+  transition: 0.2s ease-in-out;
+}
+
+.toggle_disabled rect {
+  fill: #7f7f7f;
+}
+
+.toggle_disabled circle {
+  transform: translateX(-20px);
+}

@@ -7,15 +7,20 @@
 :root {
   --promo-fill: #073042;
   --accent: #3ddc84;
+  --call-to-action: #4285f4;
   --off-white: #272727;
   --off-white-lighter: #303030;
+  --off-white-faded: #2f2f2f;
   --background: #202020;
   --faded: #8b8b8b;
+  --app-text-color: white;
+  --max-width-l: 1140px;
+  --max-width-m: 668px;
 }
 
 .root {
   background-color: var(--background);
-  color: white;
+  color: var(--app-text-color);
 }
 
 .root,
@@ -30,17 +35,21 @@ ul {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: var(--max-width-l);
   margin: auto;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--app-text-color);
 }
 
-@media screen and (max-width: 1068px) {
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
   .container {
-    max-width: 668px;
+    max-width: var(--max-width-m);
   }
 }
