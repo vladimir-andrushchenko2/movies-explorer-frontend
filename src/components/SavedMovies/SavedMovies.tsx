@@ -1,5 +1,16 @@
-function SavedMovies() {
-  return <h1>Howdy from saved movies</h1>
-}
+import './SavedMovies.css'
+import Footer from '../Common/Footer/Footer'
+import Header from '../Common/Header/Header'
+import MoviesCardList from '../MoviesList/MoviesCardList/MoviesCardList'
+import SearchForm from '../Common/SearchForm/SearchForm'
 
-export default SavedMovies
+export default function SavedMovies() {
+  return (
+    <div className="movies-page container">
+      <Header />
+      <SearchForm />
+      <MoviesCardList />
+      <Footer />
+    </div>
+  )
+}

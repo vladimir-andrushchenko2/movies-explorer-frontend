@@ -1,8 +1,8 @@
 import './Movies.css'
 import Footer from '../Common/Footer/Footer'
 import Header from '../Common/Header/Header'
-import MoviesCardList from './MoviesCardList/MoviesCardList'
-import SearchForm from './SearchForm/SearchForm'
+import MoviesCardList from '../MoviesList/MoviesCardList/MoviesCardList'
+import SearchForm from '../Common/SearchForm/SearchForm'
 
 export default function Movies() {
   return (
