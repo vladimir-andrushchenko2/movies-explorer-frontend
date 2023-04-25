@@ -6,7 +6,7 @@ import SearchForm from '../Common/SearchForm/SearchForm'
 
 export default function SavedMovies() {
   return (
-    <div className="movies-page container">
+    <div className="saved-movies-page container">
       <Header />
       <SearchForm />
       <MoviesCardList />
