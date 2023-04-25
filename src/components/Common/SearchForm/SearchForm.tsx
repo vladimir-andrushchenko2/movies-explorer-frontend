@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import RadioToggle from '../../UiElements/RadioToggle/RadioToggle'
+import RadioToggle from '../../UiElements/SliderToggle/RadioToggle'
 import SearchIcon from '../../UiElements/SearchIcon/SearchIcon'
 import './SearchForm.css'
 
