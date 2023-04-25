@@ -1,0 +1,17 @@
+.movies-page .footer {
+  margin-top: 160px;
+}
+
+.movies-page__load-more-btn {
+  margin: 80px auto 0;
+  display: block;
+  color: var(--app-text-color);
+  background-color: var(--off-white-faded);
+  border: 0;
+  padding: 9px 150px;
+  border-radius: 6px;
+}
+
+.movies-page__load-more-btn:active {
+  opacity: 0.8;
+}
