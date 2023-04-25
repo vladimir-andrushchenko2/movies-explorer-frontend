@@ -1,7 +1,11 @@
 import './MoviesCard.css'
 import placeholderImg from '../../../assets/images/placeholder-movie-card.png'
 
-function MovieCard({ actionButton }: { actionButton: JSX.Element }) {
+type MovieCardProps = {
+  actionButton: JSX.Element
+}
+
+function MovieCard({ actionButton }: MovieCardProps) {
   return (
     <li className="movie-card">
       <img className="movie-card__img" src={placeholderImg} alt="thumbnail" />
