@@ -10,7 +10,7 @@ type Movie = {
 }
 
 type MoviesCardListProps = {
-  onClickHandler: (id: number) => void
+  onClickCardActionBtnHandler: (id: number) => void
   movies: Movie[]
   cardType: CardType
 }
@@ -34,7 +34,7 @@ const cardTypeToButtonJSXElementFactory = {
 }
 
 function MoviesCardList({
-  onClickHandler,
+  onClickCardActionBtnHandler,
   movies,
   cardType,
 }: MoviesCardListProps) {
@@ -49,7 +49,7 @@ function MoviesCardList({
               key={movie.id}
               actionButton={makeButton({
                 ...movie,
-                onClickHandler: () => onClickHandler(movie.id),
+                onClickHandler: () => onClickCardActionBtnHandler(movie.id),
               })}
             />
           )

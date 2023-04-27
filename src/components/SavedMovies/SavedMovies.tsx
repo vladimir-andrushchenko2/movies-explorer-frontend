@@ -10,7 +10,7 @@ const movies: { id: number; isLiked: boolean }[] = [
 ]
 
 export default function SavedMovies() {
-  function onClickHandler(id: number) {
+  function onClickCardActionBtnHandler(id: number) {
     console.log('delete', id)
   }
   return (
@@ -19,7 +19,7 @@ export default function SavedMovies() {
       <SearchForm />
       <MoviesCardList
         movies={movies}
-        onClickHandler={onClickHandler}
+        onClickCardActionBtnHandler={onClickCardActionBtnHandler}
         cardType="delete"
       />
       <Footer />
