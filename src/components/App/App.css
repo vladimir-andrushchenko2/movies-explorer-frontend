@@ -17,6 +17,7 @@
   --app-text-color: white;
   --max-width-l: 1140px;
   --max-width-m: 668px;
+  --danger-text: #ee3465;
 }
 
 .root {
@@ -47,6 +48,10 @@ a {
 
 button {
   cursor: pointer;
+}
+
+button:active {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1150px) {
