@@ -1,3 +1,7 @@
+.circular-checkbox-label {
+  display: flex;
+}
+
 .circular-checkbox {
   width: 0;
   height: 0;

@@ -1,6 +1,7 @@
 import MovieCard from '../MoviesCard/MoviesCard'
 import './MoviesCardList.css'
 import CircularCheckbox from '../../UiElements/CircularCheckbox/CircularCheckbox'
+import DeleteButton from '../../UiElements/DeleteButton/DeleteButton'
 
 type CardType = 'save' | 'delete'
 
@@ -22,14 +23,9 @@ const cardTypeToButtonJSXElementFactory = {
   }: {
     isLiked: boolean
     onClickHandler: () => void
-  }) => (
-    <CircularCheckbox
-      isActive={isLiked}
-      onClickHandler={() => onClickHandler()}
-    />
-  ),
+  }) => <CircularCheckbox isActive={isLiked} onClickHandler={onClickHandler} />,
   delete: ({ onClickHandler }: { onClickHandler: () => void }) => (
-    <button onClick={() => onClickHandler()}>delete card</button>
+    <DeleteButton onClickHandler={onClickHandler} />
   ),
 }
 

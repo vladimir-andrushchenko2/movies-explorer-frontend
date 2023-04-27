@@ -8,9 +8,9 @@ function CircularCheckbox({
   onClickHandler: () => void
 }) {
   return (
-    <label>
+    <label className="circular-checkbox-label">
       <input
-        onClick={() => onClickHandler()}
+        onClick={onClickHandler}
         className="circular-checkbox"
         type="checkbox"
       />
