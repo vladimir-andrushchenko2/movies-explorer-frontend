@@ -5,11 +5,14 @@
 .portfolio__title {
   font-size: 18px;
   line-height: 20px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
   color: var(--faded);
 }
 
 .portfolio__links {
-  margin-top: 50px;
+  margin-top: 30px;
+  letter-spacing: -0.07em;
 }
 
 .portfolio__link-item {

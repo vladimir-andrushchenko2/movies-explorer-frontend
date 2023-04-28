@@ -8,15 +8,15 @@ function AboutMe() {
       <div className="about-me__content">
         <div className="about-me__info">
           <div className="about-me__container">
-            <p className="about-me__name main-page__title">Владимир</p>
-            <p className="about-me__profession">Web developer, 28 years</p>
+            <p className="about-me__name main-page__title">Виталий</p>
+            <p className="about-me__profession">Фронтенд-разработчик, 30 лет</p>
             <p className="about-me__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-              optio facilis doloribus repellendus eligendi sint laudantium
-              veritatis deleniti aperiam cumque cum iusto necessitatibus nam est
-              ducimus autem quod quaerat voluptatum ratione. Repellendus animi
-              est, quaerat facilis ipsum rerum provident culpa necessitatibus,
-              dolorem officia veniam quae.
+              Я&nbsp;родился и&nbsp;живу в&nbsp;Саратове, закончил факультет
+              экономики СГУ. У&nbsp;меня есть жена и&nbsp;дочь. Я&nbsp;люблю
+              слушать музыку, а&nbsp;ещё увлекаюсь бегом. Недавно начал кодить.
+              С&nbsp;2015 года работал в&nbsp;компании &laquo;СКБ Контур&raquo;.
+              После того, как прошёл курс по&nbsp;веб-разработке, начал
+              заниматься фриланс-заказами и&nbsp;ушёл с&nbsp;постоянной работы.
             </p>
           </div>
           <a

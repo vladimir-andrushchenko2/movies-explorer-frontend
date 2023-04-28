@@ -1,5 +1,5 @@
 .about-me {
-  margin-top: 110px;
+  margin-top: 111px;
 }
 
 .about-me__content {
@@ -12,9 +12,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.about-me__name {
 }
 
 .about-me__profession {
@@ -34,4 +31,5 @@
 .about-me__img {
   height: 327px;
   object-fit: cover;
+  border-radius: 10px;
 }

@@ -1,7 +1,7 @@
 .techs {
   margin-top: 110px;
   background-color: var(--off-white);
-  padding: 100px 0;
+  padding: 99px 0;
 }
 
 .techs__subtitle {
@@ -10,11 +10,13 @@
 }
 
 .techs__info {
-  max-width: 560px;
+  max-width: 460px;
+  font-weight: 400;
   margin: 26px auto 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
+  letter-spacing: -0.07em;
 }
 
 .techs__list {
