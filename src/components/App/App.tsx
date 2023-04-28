@@ -6,6 +6,7 @@ import SavedMovies from '../SavedMovies/SavedMovies'
 import Profile from '../Profile/Profile'
 import Login from '../Auth/Login/Login'
 import Register from '../Auth/Register/Register'
+import NotFound from '../NotFound/NotFound'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/profile" element={<Profile />}></Route>
           <Route path="/signin" element={<Login />}></Route>
           <Route path="/signup" element={<Register />}></Route>
-          <Route path="*" element={<h1>404</h1>}></Route>
+          <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
