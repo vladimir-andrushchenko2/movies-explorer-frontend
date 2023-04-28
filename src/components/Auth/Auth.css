@@ -1,0 +1,94 @@
+.auth-page {
+  max-width: 396px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 0;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.auth__logo {
+  width: 38px;
+}
+
+.auth__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.auth__form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__label:not(:first-child) {
+  margin-top: 20px;
+}
+
+.auth__label-text {
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--faded);
+}
+
+.auth__input {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: var(--off-white-faded);
+  border: 0;
+  border-radius: 8px;
+  color: var(--app-text-color);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.auth__label-error-text {
+  color: var(--danger-text);
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.auth__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__submit {
+  padding: 15px 0;
+  background-color: var(--call-to-action);
+  border: 0;
+  border-radius: 3px;
+  color: var(--app-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.auth__link {
+  text-align: center;
+  margin-top: 16px;
+  color: var(--faded);
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.auth__link-accent-text {
+  color: var(--call-to-action);
+}
