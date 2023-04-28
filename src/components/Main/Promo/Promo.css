@@ -68,4 +68,6 @@
   color: var(--app-text-color);
   border-radius: 3px;
   opacity: 0.6;
+  display: block;
+  max-width: max-content;
 }
