@@ -74,4 +74,28 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .promo {
+    background-image: url('../../../assets/images/hero.svg');
+    background-repeat: no-repeat;
+    background-size: 310px;
+    background-position: center top 215px;
+  }
+  .promo__logo {
+    transform: translateX(-20px);
+  }
+
+  .promo__links {
+    transform: translateX(20px);
+  }
+
+  .hero {
+    margin-top: 510px;
+    background-image: none;
+  }
+
+  .hero__title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+  }
 }

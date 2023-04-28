@@ -7,7 +7,7 @@ function Promo() {
     <div className="promo">
       <div className="container">
         <header className="promo__header">
-          <img src={logo} alt="logo" />
+          <img className="promo__logo" src={logo} alt="logo" />
           <div className="promo__links">
             <Link className="promo__link" to="/signup">
               Регистрация
