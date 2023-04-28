@@ -1,25 +1,71 @@
 .promo {
   background-color: var(--promo-fill);
   padding: 18px 0 75px;
+  background-image: url('../../../assets/images/hero.svg');
+  background-repeat: no-repeat;
+  background-size: 310px;
+  background-position: center right 70px;
 }
 
-.header {
+.promo__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.promo__links {
+  display: flex;
+  align-items: center;
+}
+
+.promo__link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.promo__link:active {
+  opacity: 0.8;
+}
+
+.promo__link_accent {
+  background-color: var(--accent);
+  color: black;
+  padding: 8px 20px;
+  border-radius: 3px;
+}
+
+.promo__link:not(:last-child) {
+  margin-right: 30px;
+}
+
 .hero__title {
   max-width: 640px;
   margin-top: 93px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
 }
 
 .hero__subtitle {
   margin-top: 36px;
   font-size: 13px;
   line-height: 16px;
+  font-size: 13px;
+  line-height: 16px;
+  max-width: 330px;
+  opacity: 0.5;
 }
 
 .hero__learn-more-btn {
   margin-top: 146px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid white;
+  color: var(--app-text-color);
+  border-radius: 3px;
+  opacity: 0.6;
 }
