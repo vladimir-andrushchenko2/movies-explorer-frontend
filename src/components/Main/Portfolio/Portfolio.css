@@ -27,3 +27,18 @@
   font-size: 30px;
   line-height: 50px;
 }
+
+@media screen and (max-width: 1150px) {
+  .portfolio {
+    margin-top: 71px;
+  }
+
+  .portfolio__title {
+    letter-spacing: 0.1px;
+  }
+
+  .portfolio__link {
+    font-size: 28px;
+    line-height: 50px;
+  }
+}
