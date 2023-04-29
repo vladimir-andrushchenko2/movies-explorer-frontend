@@ -38,3 +38,29 @@
 .techs__item:not(:last-child) {
   margin-right: 10px;
 }
+
+@media screen and (max-width: 1150px) {
+  .techs {
+    margin-top: 90px;
+    padding-top: 90px;
+  }
+
+  .techs__subtitle {
+    margin-top: 80px;
+  }
+
+  .techs__info {
+    margin-top: 20px;
+    letter-spacing: -0.08em;
+  }
+
+  .techs__list {
+    margin-top: 81px;
+  }
+
+  .techs__item {
+    font-size: 12px;
+    line-height: 15px;
+    min-width: 84px;
+  }
+}
