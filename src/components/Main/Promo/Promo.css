@@ -79,7 +79,9 @@
     background-repeat: no-repeat;
     background-size: 310px;
     background-position: center top 215px;
+    padding-bottom: 77px;
   }
+
   .promo__logo {
     transform: translateX(-20px);
   }
@@ -97,5 +99,19 @@
     text-align: center;
     font-size: 40px;
     line-height: 50px;
+    max-width: none;
+  }
+
+  .hero__subtitle {
+    text-align: center;
+    margin: 22px auto 0;
+    font-size: 13px;
+    line-height: 16px;
+    max-width: 250px;
+  }
+
+  .hero__learn-more-btn {
+    margin: 93px auto 0;
+    letter-spacing: 0.75px;
   }
 }
