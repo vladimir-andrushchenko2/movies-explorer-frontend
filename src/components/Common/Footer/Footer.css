@@ -36,3 +36,43 @@
   font-size: 13px;
   line-height: 16px;
 }
+
+@media screen and (max-width: 1150px) {
+  .footer__copyright {
+    font-size: 13px;
+    line-height: 16px;
+    position: relative;
+  }
+
+  .footer__copyright::after {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background-color: var(--faded);
+    position: absolute;
+    right: -20px;
+    bottom: -1px;
+  }
+
+  .footer__copyright::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background-color: var(--faded);
+    position: absolute;
+    left: -20px;
+    bottom: -1px;
+  }
+
+  .footer__row {
+    margin-top: 19px;
+  }
+
+  .footer__timestamp {
+    transform: translateX(-20px);
+  }
+
+  .footer__links {
+    transform: translateX(20px);
+  }
+}
