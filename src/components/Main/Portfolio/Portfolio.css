@@ -17,10 +17,13 @@
 
 .portfolio__link-item {
   padding: 20px 0 19px;
-  border-bottom: 1px solid var(--faded);
   background-image: url('../../../assets/ui/portfolio-link-arrow.svg');
   background-repeat: no-repeat;
   background-position: right center;
+}
+
+.portfolio__link-item:not(:last-child) {
+  border-bottom: 1px solid var(--faded);
 }
 
 .portfolio__link {
