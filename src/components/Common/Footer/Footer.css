@@ -76,3 +76,29 @@
     transform: translateX(20px);
   }
 }
+
+@media screen and (max-width: 720px) {
+  .promo__logo {
+    transform: translateX(0);
+  }
+
+  .promo__links {
+    transform: translateX(0);
+  }
+
+  .footer__copyright::after {
+    display: none;
+  }
+
+  .footer__copyright::before {
+    display: none;
+  }
+
+  .footer__timestamp {
+    transform: translateX(0);
+  }
+
+  .footer__links {
+    transform: translateX(0);
+  }
+}

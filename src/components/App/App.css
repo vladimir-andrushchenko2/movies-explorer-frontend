@@ -59,3 +59,9 @@ button:active {
     max-width: var(--max-width-m);
   }
 }
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 0 14px;
+  }
+}

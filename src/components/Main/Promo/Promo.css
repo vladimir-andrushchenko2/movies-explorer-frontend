@@ -115,3 +115,13 @@
     letter-spacing: 0.75px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .promo__logo {
+    transform: translateX(0);
+  }
+
+  .promo__links {
+    transform: translateX(0);
+  }
+}
