@@ -52,3 +52,31 @@
   margin-top: 14px;
   color: #8b8b8b;
 }
+
+@media screen and (max-width: 1150px) {
+  .about-project {
+    margin-top: 90px;
+  }
+
+  .about-project__into-title {
+    font-weight: 400;
+  }
+
+  .about-project__into {
+    margin-top: 22px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .about-project__info-item {
+    margin-left: 20px;
+  }
+
+  .about_project__info-item:nth-child(2) {
+    margin-left: 30px;
+  }
+
+  .about-project__chart {
+    margin-top: 94px;
+  }
+}
