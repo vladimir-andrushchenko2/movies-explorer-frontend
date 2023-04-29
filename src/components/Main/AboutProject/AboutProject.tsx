@@ -5,7 +5,7 @@ function AboutProject() {
       <h2 className="about-project__title main-page__section-title">
         О проекте
       </h2>
-      <ul className="about_project__info-list">
+      <ul className="about-project__info-list">
         <li className="about_project__info-item">
           <h3 className="about-project__into-title">
             Дипломный проект включал 5 этапов

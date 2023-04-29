@@ -2,7 +2,7 @@
   margin-top: 110px;
 }
 
-.about_project__info-list {
+.about-project__info-list {
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
@@ -78,5 +78,45 @@
 
   .about-project__chart {
     margin-top: 94px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about-project {
+    padding: 0 18px;
+    margin-top: 71px;
+  }
+
+  .about-project__info-list {
+    flex-direction: column;
+    margin-top: 61px;
+    gap: 57px;
+  }
+
+  .about_project__info-item:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .about-project__into-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about-project__into {
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about-project__chart {
+    margin-top: 60px;
+  }
+
+  .about-project__stage-item {
+    font-size: 11px;
+  }
+
+  .about-project__stage-description {
+    margin-top: 7px;
   }
 }

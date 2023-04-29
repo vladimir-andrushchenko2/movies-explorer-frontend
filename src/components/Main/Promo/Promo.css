@@ -12,6 +12,7 @@
 .promo__links {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 .promo__link {
@@ -29,10 +30,6 @@
   color: black;
   padding: 8px 20px;
   border-radius: 3px;
-}
-
-.promo__link:not(:last-child) {
-  margin-right: 30px;
 }
 
 .hero {
@@ -123,5 +120,44 @@
 
   .promo__links {
     transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .promo__links {
+    gap: 14px;
+  }
+
+  .promo__link {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .promo__link_accent {
+    padding: 5px 12px;
+  }
+
+  .promo {
+    background-size: 210px;
+    background-position: center top 144px;
+    padding-bottom: 30px;
+  }
+
+  .hero {
+    margin-top: 337px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+  }
+
+  .hero__subtitle {
+    margin-top: 25px;
+  }
+
+  .hero__learn-more-btn {
+    margin-top: 82px;
   }
 }

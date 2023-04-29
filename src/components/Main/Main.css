@@ -1,8 +1,8 @@
-.main-page__title {
+/* .main-page__title {
   font-size: 50px;
   line-height: 58px;
   letter-spacing: -0.04em;
-}
+} */
 
 .main-page__section-title {
   font-weight: 400;
@@ -20,5 +20,13 @@
 @media screen and (max-width: 1150px) {
   .main-page .footer {
     margin-top: 148px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .main-page__section-title {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 27px;
   }
 }
