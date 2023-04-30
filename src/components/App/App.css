@@ -23,6 +23,7 @@
 .root {
   background-color: var(--background);
   color: var(--app-text-color);
+  min-height: 100vh;
 }
 
 .root,

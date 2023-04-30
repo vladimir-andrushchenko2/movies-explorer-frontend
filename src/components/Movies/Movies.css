@@ -2,6 +2,11 @@
   margin-top: 160px;
 }
 
+.movies-page {
+  display: flex;
+  flex-direction: column;
+}
+
 .movies-page__load-more-btn {
   margin: 80px auto 0;
   display: block;

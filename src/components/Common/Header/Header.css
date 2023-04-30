@@ -1,5 +1,5 @@
 .header {
-  padding: 18px 0;
+  padding: 17px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,10 +7,13 @@
 
 .header__nav-links {
   display: flex;
+  gap: 16px;
+  transform: translateX(25px);
 }
 
-.header__nav-links-item:not(:first-child) {
-  margin-left: 16px;
+.header__nav-link {
+  font-size: 13px;
+  line-height: 18px;
 }
 
 .header__nav-link_active {
@@ -18,8 +21,7 @@
 }
 
 .header__account-link {
-  font-size: 13px;
-  line-height: 18px;
+  transform: translateY(-5px) translateX(-3px);
 }
 
 .header__profile-icon {
@@ -28,7 +30,7 @@
   height: 26px;
   background-color: var(--off-white-lighter);
   transform: translateY(30%);
-  margin-left: 7px;
+  margin-left: 4px;
   border-radius: 50%;
   background-image: url('../../../assets/ui/profile-link-icon.svg');
   background-repeat: no-repeat;

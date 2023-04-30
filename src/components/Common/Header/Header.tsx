@@ -2,10 +2,14 @@ import logo from '../../../assets/logo.svg'
 import './Header.css'
 import { NavLink } from 'react-router-dom'
 
-function getNavLinkClass({ isActive }: { isActive: boolean }) {
+function getNavLinkClass({ isActive }: { isActive: boolean }): string {
   return isActive
     ? 'header__nav-link header__nav-link_active'
     : 'header__nav-link'
+}
+
+function getAccountLinkClass({ isActive }: { isActive: boolean }) {
+  return getNavLinkClass({ isActive }) + ' header__account-link'
 }
 
 function Header() {
@@ -26,7 +30,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <NavLink className={getNavLinkClass} to="/profile">
+      <NavLink className={getAccountLinkClass} to="/profile">
         Аккаунт <span className="header__profile-icon"></span>
       </NavLink>
     </header>
