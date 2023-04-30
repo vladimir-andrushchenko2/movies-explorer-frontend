@@ -25,7 +25,7 @@ function CircularCheckbox({
           cx="14"
           cy="11"
           r="8"
-          fill={isActive ? '#2BE080' : 'red'}
+          fill={isActive ? '#2BE080' : '#222'}
           className="circular-checkbox__indicator"
         />
         <path

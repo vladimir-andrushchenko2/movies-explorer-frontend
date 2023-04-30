@@ -1,10 +1,10 @@
 function SearchIcon() {
   return (
     <svg
-      width="13"
-      height="14"
+      width="19"
+      height="18"
       viewBox="0 0 13 14"
-      style={{ transform: 'scale(2)' }}
+      style={{ transform: 'translateX(-16px)' }}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

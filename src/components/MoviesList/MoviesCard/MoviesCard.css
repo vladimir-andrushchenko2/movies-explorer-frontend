@@ -11,7 +11,7 @@
 }
 
 .movie-card__info {
-  padding: 14px 12px;
+  padding: 5px 12px 12px;
 }
 
 .movie-card__title {
@@ -21,8 +21,12 @@
 }
 
 .movie-card__length {
-  margin-top: 10px;
+  margin-top: 4px;
   color: var(--faded);
   font-size: 11px;
   line-height: 13px;
+}
+
+.movie-card__action-btn-wrapper:has(.circular-checkbox-label) {
+  transform: translateX(6px) translateY(2px);
 }
