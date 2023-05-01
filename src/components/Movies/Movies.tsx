@@ -1,8 +1,9 @@
 import './Movies.css'
 import Footer from '../Common/Footer/Footer'
 import Header from '../Common/Header/Header'
-import MoviesCardList from '../MoviesList/MoviesCardList/MoviesCardList'
+import MoviesCardList from '../Common/MoviesList/MoviesCardList/MoviesCardList'
 import SearchForm from '../Common/SearchForm/SearchForm'
+import MovieCard from './MoviesCard/MoviesCard'
 import { useState } from 'react'
 
 const moviesInitialState: { id: number; isLiked: boolean }[] = [
@@ -45,11 +46,15 @@ export default function Movies() {
     <div className="movies-page container">
       <Header />
       <SearchForm />
-      <MoviesCardList
-        movies={movies}
-        onClickCardActionBtnHandler={onClickCardActionBtnHandler}
-        cardType="save"
-      />
+      <MoviesCardList>
+        {movies.map((movie) => (
+          <MovieCard
+            isLiked={movie.isLiked}
+            onActionBtnClick={() => onClickCardActionBtnHandler(movie.id)}
+            key={movie.id}
+          />
+        ))}
+      </MoviesCardList>
       <button className="movies-page__load-more-btn">Ещё</button>
       <Footer />
     </div>
