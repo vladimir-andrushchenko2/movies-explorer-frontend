@@ -24,7 +24,7 @@ function Login() {
             <span className="auth__label-text">Пароль</span>
             <input
               className="auth__input"
-              type="text"
+              type="password"
               placeholder="***************"
             />
             <span className="auth__label-error-text">
@@ -37,11 +37,11 @@ function Login() {
             form="register-form"
             className="auth__submit"
             type="submit"
-            value="Зарегистрироваться"
+            value="Войти"
           />
           <Link className="auth__link" to="/signin">
-            Уже зарегистрированы?{' '}
-            <span className="auth__link-accent-text">Войти</span>
+            Ещё не зарегистрированы?{' '}
+            <span className="auth__link-accent-text">Регистрация</span>
           </Link>
         </div>
       </div>
