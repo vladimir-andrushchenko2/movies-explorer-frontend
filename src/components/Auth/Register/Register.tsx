@@ -30,7 +30,7 @@ function Register() {
             <span className="auth__label-text">Пароль</span>
             <input
               className="auth__input"
-              type="text"
+              type="password"
               placeholder="Min 8 Characters, Capital letter, and a Symbol"
             />
             <span className="auth__label-error-text">

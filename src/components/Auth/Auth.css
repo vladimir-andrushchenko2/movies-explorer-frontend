@@ -36,8 +36,12 @@
   flex-direction: column;
 }
 
-.auth__label:not(:first-child) {
-  margin-top: 20px;
+.auth__label:first-of-type {
+  margin-top: 40px;
+}
+
+.auth__label:not(:first-of-type) {
+  margin-top: 8px;
 }
 
 .auth__label-text {
@@ -60,9 +64,9 @@
 
 .auth__label-error-text {
   color: var(--danger-text);
-  font-size: 13px;
-  line-height: 16px;
-  margin-top: 10px;
+  font-size: 10px;
+  line-height: 12px;
+  transform: translateY(10px);
 }
 
 .auth__buttons {
