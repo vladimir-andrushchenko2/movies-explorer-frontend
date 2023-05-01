@@ -10,3 +10,15 @@
   flex-wrap: wrap;
   place-content: center;
 }
+
+@media screen and (max-width: 1150px) {
+  .movies-list {
+    margin-top: 109px;
+  }
+
+  .movies-list__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px 30px;
+  }
+}
