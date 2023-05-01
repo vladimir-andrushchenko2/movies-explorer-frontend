@@ -54,15 +54,3 @@ button {
 button:active {
   opacity: 0.8;
 }
-
-@media screen and (max-width: 1150px) {
-  .container {
-    max-width: var(--max-width-m);
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .container {
-    padding: 0 14px;
-  }
-}

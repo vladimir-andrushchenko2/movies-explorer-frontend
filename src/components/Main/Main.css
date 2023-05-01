@@ -12,6 +12,10 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .main-page .container {
+    max-width: var(--max-width-m);
+  }
+
   .main-page .footer {
     margin-top: 148px;
   }
@@ -26,5 +30,9 @@
 
   .main-page .footer {
     margin-top: 130px;
+  }
+
+  .main-page .container {
+    padding: 0 14px;
   }
 }
