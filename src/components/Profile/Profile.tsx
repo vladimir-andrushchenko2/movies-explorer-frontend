@@ -7,7 +7,7 @@ function Profile() {
       <Header />
       <div className="profile">
         <h1 className="profile__title">Привет, Виталий!</h1>
-        <form id="profile__form">
+        <form id="profile__form" className="profile__form">
           <label className="profile__label">
             <span className="profile__label-text">Имя</span>
             <input
