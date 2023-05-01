@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import logo from '../../../assets/logo.svg'
 import './Header.css'
 import { NavLink } from 'react-router-dom'
@@ -13,11 +14,22 @@ function getAccountLinkClass({ isActive }: { isActive: boolean }) {
 }
 
 function Header() {
+  const [isMenuOpened, setIsMenuOpened] = useState(false)
+
   return (
     <header className="header">
       <img src={logo} alt="logo" />
       <nav className="header__nav">
-        <ul className="header__nav-links">
+        <ul
+          className={`header__nav-links ${
+            isMenuOpened ? 'header__nav-links_opened' : ''
+          }`}
+        >
+          <li className="header__nav-links-item header__nav-links-item_to-main">
+            <NavLink to="/" className={getNavLinkClass}>
+              Главная
+            </NavLink>
+          </li>
           <li className="header__nav-links-item">
             <NavLink to="/movies" className={getNavLinkClass}>
               Фильмы
@@ -28,11 +40,17 @@ function Header() {
               Сохранённые фильмы
             </NavLink>
           </li>
+          <li className="header__nav-links-item header__nav-links-item_profile">
+            <NavLink className={getAccountLinkClass} to="/profile">
+              Аккаунт <span className="header__profile-icon"></span>
+            </NavLink>
+          </li>
         </ul>
       </nav>
-      <NavLink className={getAccountLinkClass} to="/profile">
-        Аккаунт <span className="header__profile-icon"></span>
-      </NavLink>
+      <button
+        onClick={() => setIsMenuOpened((prev) => !prev)}
+        className="header__burger"
+      ></button>
     </header>
   )
 }
