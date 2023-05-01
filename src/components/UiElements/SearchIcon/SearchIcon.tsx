@@ -1,10 +1,12 @@
+import './SearchIcon.css'
+
 function SearchIcon() {
   return (
     <svg
+      className="search-icon"
       width="19"
       height="18"
       viewBox="0 0 13 14"
-      style={{ transform: 'translateX(-16px)' }}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

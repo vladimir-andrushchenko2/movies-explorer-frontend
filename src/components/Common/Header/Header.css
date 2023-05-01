@@ -100,6 +100,7 @@
   .header__burger {
     display: block;
     z-index: 2;
+    transform: scale(1.25) translateX(-5px);
   }
 
   /* display burger as cross for when the menu is opened */

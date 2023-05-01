@@ -1,6 +1,7 @@
 .search {
+  position: relative;
   background-color: var(--off-white-faded);
-  padding: 16px 30px 16px 45px;
+  padding: 16px 30px 16px 57px;
   border-radius: 9px;
   display: flex;
   align-items: center;
@@ -66,4 +67,27 @@
 .search__label-text {
   display: inline-block;
   margin-left: 14px;
+}
+
+@media screen and (max-width: 1150px) {
+  .search {
+    margin-top: 82px;
+    padding-right: 20px;
+  }
+
+  .search__btn {
+    margin: 0;
+  }
+
+  .search__vertical-line-divider {
+    margin-right: 19px;
+    margin-left: 20px;
+  }
+
+  .search__label-text {
+    font-size: 13px;
+    line-height: 18px;
+    transform: translateY(1px);
+    margin-left: 15px;
+  }
 }
