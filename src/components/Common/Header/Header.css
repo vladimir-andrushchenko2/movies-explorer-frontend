@@ -27,8 +27,8 @@
 
 .header__nav-link {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 .header__nav-link_active {
@@ -66,6 +66,11 @@
 
   .header__nav-links {
     display: none;
+  }
+
+  .header__nav-link {
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .header__nav-links_opened {
