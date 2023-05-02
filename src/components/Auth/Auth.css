@@ -96,3 +96,18 @@
 .auth__link-accent-text {
   color: var(--call-to-action);
 }
+
+@media screen and (max-width: 1150px) {
+  .auth-page {
+    justify-content: flex-end;
+  }
+
+  .auth {
+    justify-content: flex-end;
+    flex-grow: 0;
+  }
+
+  .auth__form {
+    margin-bottom: 78px;
+  }
+}
