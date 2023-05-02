@@ -48,7 +48,10 @@ function Header() {
         </ul>
       </nav>
       <button
-        onClick={() => setIsMenuOpened((prev) => !prev)}
+        onClick={() => {
+          setIsMenuOpened((prev) => !prev)
+          window.scrollTo(0, 0)
+        }}
         className="header__burger"
       ></button>
     </header>
