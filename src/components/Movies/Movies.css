@@ -20,3 +20,10 @@
 .movies-page__load-more-btn:active {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 600px) {
+  .movies-page__load-more-btn {
+    margin-top: 81px;
+    padding: 10px 106px;
+  }
+}

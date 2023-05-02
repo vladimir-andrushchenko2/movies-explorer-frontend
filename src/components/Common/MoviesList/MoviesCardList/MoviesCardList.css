@@ -30,7 +30,13 @@
 }
 
 @media screen and (max-width: 600px) {
+  .movies-list {
+    margin-top: 18px;
+    padding-top: 50px;
+  }
+
   .movies-list__list {
     grid-template-columns: 1fr;
+    gap: 21px;
   }
 }
