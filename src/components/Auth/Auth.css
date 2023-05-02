@@ -111,3 +111,41 @@
     margin-bottom: 78px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .auth-page {
+    padding: 56px 30px 34px;
+    justify-content: flex-start;
+  }
+
+  .auth__logo {
+    align-self: center;
+  }
+
+  .auth {
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .auth__title {
+    align-self: center;
+  }
+
+  .auth__form {
+    margin-top: 50px;
+  }
+
+  .auth__label:first-of-type {
+    margin-top: 80px;
+  }
+
+  .auth__submit {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .auth__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
