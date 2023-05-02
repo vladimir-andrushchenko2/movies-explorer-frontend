@@ -75,3 +75,26 @@
 .profile__form {
   transform: translateY(-48px);
 }
+
+@media screen and (max-width: 1150px) {
+  .profile {
+    margin-top: 237px;
+  }
+
+  .profile__form {
+    transform: translateY(-57px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    min-width: 0;
+    width: 100%;
+    margin-top: 72px;
+  }
+
+  .profile__form {
+    transform: translateY(-150px);
+    padding: 0 20px;
+  }
+}
