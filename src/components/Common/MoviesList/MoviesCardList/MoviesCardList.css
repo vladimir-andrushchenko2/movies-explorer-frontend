@@ -22,3 +22,15 @@
     gap: 36px 30px;
   }
 }
+
+@media screen and (max-width: 760px) {
+  .movies-list__list {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .movies-list__list {
+    grid-template-columns: 1fr;
+  }
+}
