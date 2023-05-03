@@ -13,7 +13,12 @@ function SearchForm() {
     <div className="search">
       <SearchIcon />
       <form className="search__form">
-        <input className="search__input" type="text" placeholder="Фильм" />
+        <input
+          className="search__input"
+          type="text"
+          placeholder="Фильм"
+          required
+        />
         <button className="search__btn">Найти</button>
       </form>
       <span className="search__vertical-line-divider"></span>
