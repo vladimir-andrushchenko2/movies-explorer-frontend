@@ -1,5 +1,6 @@
 import Header from '../Common/Header/Header'
 import './Profile.css'
+import { Link } from 'react-router-dom'
 
 function Profile() {
   return (
@@ -33,7 +34,9 @@ function Profile() {
             value={'Редактировать'}
             form="profile__form"
           />
-          <button className="profile__logout">Выйти из аккаунта</button>
+          <Link className="profile__logout-wrapper" to="/">
+            <button className="profile__logout">Выйти из аккаунта</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import logo from '../../../assets/logo.svg'
 import './Header.css'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 function getNavLinkClass({ isActive }: { isActive: boolean }): string {
   return isActive
@@ -18,7 +18,9 @@ function Header() {
 
   return (
     <header className="header">
-      <img src={logo} alt="logo" />
+      <Link to="/">
+        <img src={logo} alt="logo" />
+      </Link>
       <nav className="header__nav">
         <ul
           className={`header__nav-links ${

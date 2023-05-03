@@ -1,12 +1,22 @@
 import './Register.css'
 import Auth from '../Auth'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Register() {
+  const navigate = useNavigate()
+  function onSubmitHandler(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    navigate('/movies')
+  }
+
   return (
     <Auth>
       <div className="auth">
-        <form id="register-form" className="auth__form">
+        <form
+          onSubmit={onSubmitHandler}
+          id="register-form"
+          className="auth__form"
+        >
           <h1 className="auth__title">Добро пожаловать!</h1>
           <label className="auth__label">
             <span className="auth__label-text">Имя</span>

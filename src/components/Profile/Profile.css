@@ -76,6 +76,10 @@
   transform: translateY(-48px);
 }
 
+.profile__logout-wrapper {
+  margin: auto;
+}
+
 @media screen and (max-width: 1150px) {
   .profile {
     margin-top: 237px;
