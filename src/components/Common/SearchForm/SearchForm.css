@@ -56,10 +56,16 @@
   border-radius: 48px;
   font-size: 11px;
   line-height: 18px;
+  transform: scale(1);
+  transition: 0.2s ease-in-out;
 }
 
 .search__btn:active {
   opacity: 0.8;
+}
+
+.search__btn:hover {
+  transform: scale(1.05);
 }
 
 .search__vertical-line-divider {
