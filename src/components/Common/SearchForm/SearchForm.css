@@ -51,6 +51,7 @@
   margin: 0 30px;
   padding: 8px 13px;
   background-color: var(--call-to-action);
+  color: var(--app-text-color);
   border: 0;
   border-radius: 48px;
   font-size: 11px;
