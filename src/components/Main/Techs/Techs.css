@@ -75,10 +75,6 @@
     padding: 0 18px;
   }
 
-  .techs__list {
-    flex-wrap: wrap;
-  }
-
   .techs__subtitle {
     font-size: 30px;
     line-height: 36px;
@@ -93,9 +89,9 @@
   }
 
   .techs__list {
+    flex-wrap: wrap;
     margin-top: 49px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 50px;
+    padding: 0 57px;
+    justify-content: flex-start;
   }
 }
