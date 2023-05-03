@@ -18,17 +18,19 @@ export default function SavedMovies() {
   return (
     <div className="saved-movies-page container">
       <Header />
-      <SearchForm />
-      <MoviesCardList>
-        {movies.map((movie) => {
-          return (
-            <SavedMovieCard
-              key={movie.id}
-              onActionBtnClick={() => onClickCardActionBtnHandler(movie.id)}
-            />
-          )
-        })}
-      </MoviesCardList>
+      <main>
+        <SearchForm />
+        <MoviesCardList>
+          {movies.map((movie) => {
+            return (
+              <SavedMovieCard
+                key={movie.id}
+                onActionBtnClick={() => onClickCardActionBtnHandler(movie.id)}
+              />
+            )
+          })}
+        </MoviesCardList>
+      </main>
       <Footer />
     </div>
   )

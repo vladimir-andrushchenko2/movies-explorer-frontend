@@ -45,17 +45,19 @@ export default function Movies() {
   return (
     <div className="movies-page container">
       <Header />
-      <SearchForm />
-      <MoviesCardList>
-        {movies.map((movie) => (
-          <MovieCard
-            isLiked={movie.isLiked}
-            onActionBtnClick={() => onClickCardActionBtnHandler(movie.id)}
-            key={movie.id}
-          />
-        ))}
-      </MoviesCardList>
-      <button className="movies-page__load-more-btn">Ещё</button>
+      <main>
+        <SearchForm />
+        <MoviesCardList>
+          {movies.map((movie) => (
+            <MovieCard
+              isLiked={movie.isLiked}
+              onActionBtnClick={() => onClickCardActionBtnHandler(movie.id)}
+              key={movie.id}
+            />
+          ))}
+        </MoviesCardList>
+        <button className="movies-page__load-more-btn">Ещё</button>
+      </main>
       <Footer />
     </div>
   )

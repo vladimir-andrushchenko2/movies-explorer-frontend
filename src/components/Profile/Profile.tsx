@@ -6,7 +6,7 @@ function Profile() {
   return (
     <div className="profile-page container">
       <Header />
-      <div className="profile">
+      <main className="profile">
         <h1 className="profile__title">Привет, Виталий!</h1>
         <form id="profile__form" className="profile__form">
           <label className="profile__label">
@@ -38,7 +38,7 @@ function Profile() {
             <button className="profile__logout">Выйти из аккаунта</button>
           </Link>
         </div>
-      </div>
+      </main>
     </div>
   )
 }

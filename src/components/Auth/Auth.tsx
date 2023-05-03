@@ -4,10 +4,10 @@ import './Auth.css'
 
 function Auth({ children }: PropsWithChildren<{}>) {
   return (
-    <div className="auth-page">
+    <main className="auth-page">
       <img className="auth__logo" src={logo} alt="" />
       {children}
-    </div>
+    </main>
   )
 }
 
