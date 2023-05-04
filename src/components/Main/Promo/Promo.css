@@ -32,7 +32,7 @@
   border-radius: 3px;
 }
 
-.hero {
+.promo__hero {
   margin-top: 93px;
   background-image: url('../../../assets/images/hero.svg');
   background-repeat: no-repeat;
@@ -40,14 +40,14 @@
   background-position: top right;
 }
 
-.hero__title {
+.promo__title {
   max-width: 640px;
   font-weight: 400;
   font-size: 50px;
   line-height: 58px;
 }
 
-.hero__subtitle {
+.promo__subtitle {
   margin-top: 36px;
   font-size: 11.5px;
   line-height: 14px;
@@ -55,7 +55,7 @@
   opacity: 0.5;
 }
 
-.hero__learn-more-btn {
+.promo__learn-more-btn {
   margin-top: 146px;
   font-weight: 500;
   font-size: 11px;
@@ -87,19 +87,19 @@
     transform: translateX(20px);
   }
 
-  .hero {
+  .promo__hero {
     margin-top: 510px;
     background-image: none;
   }
 
-  .hero__title {
+  .promo__title {
     text-align: center;
     font-size: 40px;
     line-height: 50px;
     max-width: none;
   }
 
-  .hero__subtitle {
+  .promo__subtitle {
     text-align: center;
     margin: 22px auto 0;
     font-size: 13px;
@@ -107,7 +107,7 @@
     max-width: 250px;
   }
 
-  .hero__learn-more-btn {
+  .promo__learn-more-btn {
     margin: 93px auto 0;
     letter-spacing: 0.75px;
   }
@@ -148,21 +148,21 @@
     padding-bottom: 30px;
   }
 
-  .hero {
+  .promo__hero {
     margin-top: 337px;
   }
 
-  .hero__title {
+  .promo__title {
     font-size: 30px;
     line-height: 38px;
     letter-spacing: -0.04em;
   }
 
-  .hero__subtitle {
+  .promo__subtitle {
     margin-top: 25px;
   }
 
-  .hero__learn-more-btn {
+  .promo__learn-more-btn {
     margin-top: 82px;
   }
 }
