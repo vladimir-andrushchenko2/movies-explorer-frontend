@@ -17,14 +17,14 @@ function Promo() {
             </Link>
           </div>
         </header>
-        <section className="hero">
-          <h1 className="hero__title">
+        <section className="promo__hero">
+          <h1 className="promo__title">
             Учебный проект студента факультета Веб-разработки.
           </h1>
-          <p className="hero__subtitle">
+          <p className="promo__subtitle">
             Листайте ниже, чтобы узнать больше про этот проект и его создателя.
           </p>
-          <a href="#about-project-section" className="hero__learn-more-btn">
+          <a href="#about-project-section" className="promo__learn-more-btn">
             Узнать больше
           </a>
         </section>
