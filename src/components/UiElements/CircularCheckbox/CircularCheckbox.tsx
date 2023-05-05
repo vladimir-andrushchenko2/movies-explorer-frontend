@@ -8,10 +8,10 @@ function CircularCheckbox({
   onClickHandler: () => void
 }) {
   return (
-    <label className="circular-checkbox-label">
+    <label className="circular-checkbox">
       <input
         onClick={onClickHandler}
-        className="circular-checkbox"
+        className="circular-checkbox__input"
         type="checkbox"
       />
       <svg
