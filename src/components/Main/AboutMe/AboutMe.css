@@ -34,7 +34,7 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .about-me {
     margin-top: 90px;
   }

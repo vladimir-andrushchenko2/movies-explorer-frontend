@@ -11,7 +11,7 @@ function Register() {
 
   return (
     <Auth>
-      <div className="auth">
+      <div className="auth__container">
         <form
           onSubmit={onSubmitHandler}
           id="register-form"
@@ -21,27 +21,21 @@ function Register() {
           <label className="auth__label">
             <span className="auth__label-text">Имя</span>
             <input className="auth__input" type="text" placeholder="Виталий" />
-            <span className="auth__label-error-text">
-              Что-то пошло не так...
-            </span>
           </label>
           <label className="auth__label">
             <span className="auth__label-text">E-mail</span>
             <input
               className="auth__input"
               type="email"
-              placeholder="cinema-fan@gmail.com"
+              placeholder="pochta@yandex.ru"
             />
-            <span className="auth__label-error-text">
-              Что-то пошло не так...
-            </span>
           </label>
           <label className="auth__label">
             <span className="auth__label-text">Пароль</span>
             <input
               className="auth__input"
               type="password"
-              placeholder="Min 8 Characters, Capital letter, and a Symbol"
+              placeholder="••••••••••••••"
             />
             <span className="auth__label-error-text">
               Что-то пошло не так...

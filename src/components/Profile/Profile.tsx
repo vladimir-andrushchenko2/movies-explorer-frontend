@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Profile() {
   return (
-    <div className="profile-page container">
+    <div className="profile-page">
       <Header />
       <main className="profile">
         <h1 className="profile__title">Привет, Виталий!</h1>
@@ -22,7 +22,7 @@ function Profile() {
             <input
               className="profile__input"
               type="email"
-              placeholder={'test@test.com'}
+              placeholder="pochta@yandex.ru"
             />
           </label>
         </form>

@@ -17,7 +17,7 @@ function Header() {
   const [isMenuOpened, setIsMenuOpened] = useState(false)
 
   return (
-    <header className="header">
+    <header className="header container">
       <Link to="/">
         <img src={logo} alt="logo" />
       </Link>

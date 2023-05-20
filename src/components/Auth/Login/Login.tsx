@@ -10,7 +10,7 @@ function Login() {
   }
   return (
     <Auth>
-      <div className="auth">
+      <div className="auth__container">
         <form onSubmit={onSubmitHandler} id="login-form" className="auth__form">
           <h1 className="auth__title">Рады видеть!</h1>
 
@@ -19,11 +19,8 @@ function Login() {
             <input
               className="auth__input"
               type="email"
-              placeholder="cinema-fan@gmail.com"
+              placeholder="pochta@yandex.ru"
             />
-            <span className="auth__label-error-text">
-              Что-то пошло не так...
-            </span>
           </label>
           <label className="auth__label">
             <span className="auth__label-text">Пароль</span>

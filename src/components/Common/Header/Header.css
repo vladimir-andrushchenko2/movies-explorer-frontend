@@ -57,7 +57,7 @@
   background-position: center;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .header__nav-links-item_profile {
     margin-left: 0;
     position: absolute;

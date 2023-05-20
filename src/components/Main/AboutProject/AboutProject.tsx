@@ -6,7 +6,7 @@ function AboutProject() {
         О проекте
       </h2>
       <ul className="about-project__info-list">
-        <li className="about_project__info-item">
+        <li className="about-project__info-item">
           <h3 className="about-project__into-title">
             Дипломный проект включал 5 этапов
           </h3>
@@ -15,7 +15,7 @@ function AboutProject() {
             функциональности и финальные доработки.
           </p>
         </li>
-        <li className="about_project__info-item">
+        <li className="about-project__info-item">
           <h3 className="about-project__into-title">
             На выполнение диплома ушло 5 недель
           </h3>

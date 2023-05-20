@@ -30,7 +30,7 @@ function Portfolio() {
             className="portfolio__link"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://vova.today"
+            href="https://github.com/vladimir-andrushchenko2/WishBoard"
           >
             Одностраничное приложение
           </a>

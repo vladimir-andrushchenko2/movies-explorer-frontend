@@ -53,7 +53,7 @@
   color: #8b8b8b;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .about-project {
     margin-top: 90px;
   }
@@ -72,7 +72,7 @@
     margin-left: 20px;
   }
 
-  .about_project__info-item:nth-child(2) {
+  .about-project__info-item:nth-child(2) {
     margin-left: 30px;
   }
 
@@ -93,7 +93,7 @@
     gap: 57px;
   }
 
-  .about_project__info-item:nth-child(2) {
+  .about-project__info-item:nth-child(2) {
     margin-left: 0;
   }
 

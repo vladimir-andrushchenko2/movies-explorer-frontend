@@ -4,7 +4,7 @@ import './Auth.css'
 
 function Auth({ children }: PropsWithChildren<{}>) {
   return (
-    <main className="auth-page">
+    <main className="auth">
       <img className="auth__logo" src={logo} alt="" />
       {children}
     </main>

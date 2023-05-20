@@ -43,7 +43,7 @@ export default function Movies() {
   }
 
   return (
-    <div className="movies-page container">
+    <>
       <Header />
       <main>
         <SearchForm />
@@ -56,9 +56,9 @@ export default function Movies() {
             />
           ))}
         </MoviesCardList>
-        <button className="movies-page__load-more-btn">Ещё</button>
+        <button className="load-more-btn">Ещё</button>
       </main>
       <Footer />
-    </div>
+    </>
   )
 }

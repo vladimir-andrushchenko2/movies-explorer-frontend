@@ -16,7 +16,7 @@ export default function SavedMovies() {
   }
 
   return (
-    <div className="saved-movies-page container">
+    <>
       <Header />
       <main>
         <SearchForm />
@@ -32,6 +32,6 @@ export default function SavedMovies() {
         </MoviesCardList>
       </main>
       <Footer />
-    </div>
+    </>
   )
 }

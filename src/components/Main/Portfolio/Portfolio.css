@@ -29,9 +29,10 @@
 .portfolio__link {
   font-size: 30px;
   line-height: 50px;
+  display: block;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .portfolio {
     margin-top: 71px;
   }

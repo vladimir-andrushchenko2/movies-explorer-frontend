@@ -10,7 +10,7 @@ function SearchForm() {
     setIsSearchForShortFilmsOnly((prev) => !prev)
   }
   return (
-    <div className="search">
+    <div className="search container">
       <SearchIcon />
       <form className="search__form">
         <input

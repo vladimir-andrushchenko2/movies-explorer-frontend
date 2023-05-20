@@ -8,10 +8,9 @@
   display: flex;
   gap: 32px 20px;
   flex-wrap: wrap;
-  place-content: center;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .movies-list {
     margin-top: 109px;
   }

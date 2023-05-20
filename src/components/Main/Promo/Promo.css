@@ -70,7 +70,7 @@
   max-width: max-content;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .promo {
     background-image: url('../../../assets/images/hero.svg');
     background-repeat: no-repeat;
