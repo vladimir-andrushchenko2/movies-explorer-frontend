@@ -1,0 +1,22 @@
+.not-found {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found__go-back {
+  max-width: max-content;
+  padding: 10px;
+  background: none;
+  border: 0;
+  color: var(--call-to-action);
+  margin-top: 180px;
+}
+
+.not-found__title {
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 169px;
+}

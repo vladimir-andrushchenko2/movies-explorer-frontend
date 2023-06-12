@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --promo-fill: #073042;
+  --accent: #3ddc84;
+  --call-to-action: #4285f4;
+  --off-white: #272727;
+  --off-white-lighter: #303030;
+  --off-white-faded: #2f2f2f;
+  --background: #202020;
+  --card-background: #222;
+  --faded: #8b8b8b;
+  --app-text-color: white;
+  --max-width-l: 1140px;
+  --max-width-m: 668px;
+  --danger-text: #ee3465;
+}
+
+.root {
+  background-color: var(--background);
+  color: var(--app-text-color);
+  min-height: 100vh;
+}
+
+.root,
+button,
+input {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: var(--max-width-l);
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--app-text-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 708px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    padding: 0 10px;
+  }
+}

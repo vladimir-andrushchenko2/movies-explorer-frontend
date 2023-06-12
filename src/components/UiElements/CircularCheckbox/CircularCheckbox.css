@@ -1,0 +1,9 @@
+.circular-checkbox {
+  display: flex;
+}
+
+.circular-checkbox__input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}

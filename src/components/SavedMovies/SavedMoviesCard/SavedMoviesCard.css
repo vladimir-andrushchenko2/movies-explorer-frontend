@@ -1,0 +1,11 @@
+.movie-card__info_saved {
+  padding-top: 9px;
+}
+
+.movie-card__action-btn-wrapper:has(.movie-card__delete-btn) {
+  transform: translateX(-4px) translateY(-2px);
+}
+
+.movie-card__length_saved {
+  margin-top: 7px;
+}

@@ -1,0 +1,152 @@
+.auth {
+  max-width: 396px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 0;
+}
+
+.auth__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.auth__logo {
+  width: 38px;
+}
+
+.auth__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.auth__form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__label:first-of-type {
+  margin-top: 40px;
+}
+
+.auth__label:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.auth__label-text {
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--faded);
+}
+
+.auth__input {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: var(--off-white-faded);
+  border: 0;
+  border-radius: 8px;
+  color: var(--app-text-color);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.auth__label-error-text {
+  color: var(--danger-text);
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+.auth__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__submit {
+  padding: 15px 0;
+  background-color: var(--call-to-action);
+  border: 0;
+  border-radius: 3px;
+  color: var(--app-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.auth__link {
+  text-align: center;
+  margin-top: 16px;
+  color: var(--faded);
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.auth__link-accent-text {
+  color: var(--call-to-action);
+}
+
+@media screen and (max-width: 1200px) {
+  .auth {
+    justify-content: flex-end;
+  }
+
+  .auth__container {
+    justify-content: flex-end;
+    flex-grow: 0;
+  }
+
+  .auth__form {
+    margin-bottom: 78px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .auth {
+    padding: 56px 30px 34px;
+    justify-content: flex-start;
+  }
+
+  .auth__logo {
+    align-self: center;
+  }
+
+  .auth__container {
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .auth__title {
+    align-self: center;
+  }
+
+  .auth__form {
+    margin-top: 50px;
+  }
+
+  .auth__label:first-of-type {
+    margin-top: 80px;
+  }
+
+  .auth__submit {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .auth__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

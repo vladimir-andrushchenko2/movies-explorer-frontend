@@ -1,0 +1,148 @@
+.search {
+  position: relative;
+  background-color: var(--off-white-faded);
+  padding: 16px 30px 16px 57px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  margin-top: 72px;
+}
+
+.search__form {
+  display: flex;
+  width: 100%;
+}
+
+.search__input {
+  width: 100%;
+  color: var(--faded);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: 5px;
+  background-color: transparent;
+  border: 0;
+  outline-offset: 5px;
+}
+
+.search__label {
+  display: flex;
+}
+
+.search__checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.search__label {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.search__label:has(.search__checkbox:focus-visible) {
+  outline: 1px solid whitesmoke;
+  outline-offset: 2px;
+  border-radius: 5px;
+}
+
+.search__btn {
+  margin: 0 30px;
+  padding: 8px 13px;
+  background-color: var(--call-to-action);
+  color: var(--app-text-color);
+  border: 0;
+  border-radius: 48px;
+  font-size: 11px;
+  line-height: 18px;
+  transform: scale(1);
+  transition: 0.2s ease-in-out;
+}
+
+.search__btn:active {
+  opacity: 0.8;
+}
+
+.search__btn:hover {
+  transform: scale(1.05);
+}
+
+.search__vertical-line-divider {
+  width: 1px;
+  height: 40px;
+  background-color: #424242;
+  display: block;
+  margin-right: 29px;
+}
+
+.search__label-text {
+  display: inline-block;
+  margin-left: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .search {
+    margin-top: 82px;
+    padding-right: 20px;
+  }
+
+  .search__btn {
+    margin: 0;
+  }
+
+  .search__vertical-line-divider {
+    margin-right: 19px;
+    margin-left: 20px;
+  }
+
+  .search__label-text {
+    font-size: 13px;
+    line-height: 18px;
+    transform: translateY(1px);
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    background-color: transparent;
+    padding: 25px 0;
+    display: grid;
+    grid-template-areas:
+      'form'
+      'switch';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-top: 57px;
+  }
+
+  .search__form {
+    grid-area: form;
+    padding: 19px;
+    background-color: var(--off-white-faded);
+    border-radius: 9px;
+  }
+
+  .search__input {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 0;
+  }
+
+  .search__label-text {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .search__label {
+    justify-content: center;
+    grid-area: switch;
+    margin-top: 46px;
+  }
+
+  .search__vertical-line-divider,
+  .search-icon {
+    display: none;
+  }
+}

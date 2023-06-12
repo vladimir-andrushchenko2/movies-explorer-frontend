@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 80px;
+}
+
+.movies-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.load-more-btn {
+  margin: 85px auto 0;
+  display: block;
+  color: var(--app-text-color);
+  background-color: var(--off-white-faded);
+  border: 0;
+  padding: 9px 150px;
+  border-radius: 6px;
+}
+
+.load-more-btn:active {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .load-more-btn {
+    margin-top: 81px;
+    padding: 10px 106px;
+  }
+}

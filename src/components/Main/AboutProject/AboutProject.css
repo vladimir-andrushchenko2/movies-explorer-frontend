@@ -1,0 +1,122 @@
+.about-project {
+  margin-top: 110px;
+}
+
+.about-project__info-list {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-project__into-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.about-project__into {
+  margin-top: 26px;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 550px;
+}
+
+.about-project__chart {
+  margin-top: 110px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.about-project__stage-item {
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.about-project__stage-item:nth-child(odd) .about-project__stage-duration {
+  background-color: var(--accent);
+  color: black;
+}
+
+.about-project__stage-item:nth-child(even) .about-project__stage-duration {
+  background-color: var(--off-white);
+}
+
+.about-project__stage-duration {
+  padding: 9px 0;
+}
+
+.about-project__stage-description {
+  font-weight: 500;
+  margin-top: 14px;
+  color: #8b8b8b;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-project {
+    margin-top: 90px;
+  }
+
+  .about-project__into-title {
+    font-weight: 400;
+  }
+
+  .about-project__into {
+    margin-top: 22px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .about-project__info-item {
+    margin-left: 20px;
+  }
+
+  .about-project__info-item:nth-child(2) {
+    margin-left: 30px;
+  }
+
+  .about-project__chart {
+    margin-top: 94px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about-project {
+    padding: 0 18px;
+    margin-top: 71px;
+  }
+
+  .about-project__info-list {
+    flex-direction: column;
+    margin-top: 61px;
+    gap: 57px;
+  }
+
+  .about-project__info-item:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .about-project__into-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about-project__into {
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about-project__chart {
+    margin-top: 60px;
+  }
+
+  .about-project__stage-item {
+    font-size: 11px;
+  }
+
+  .about-project__stage-description {
+    margin-top: 7px;
+  }
+}
